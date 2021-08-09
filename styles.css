@@ -50,6 +50,11 @@ a {
     background-color: #141414 !important;
 }
 
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: #050505;
+    text-align: center;
+}
+
 div.thumbinner {
     border: 0px solid #c8ccd1 !important;
     padding: 3px;
