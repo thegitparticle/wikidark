@@ -1,81 +1,115 @@
 body {
-    background-color: #141414 !important;
-  }
-   
-h1, h2, h3, h4, h5, h6 {
-    color: #fff !important;
+	background-color: #141414 !important;
 }
 
-.mw-body, .parsoid-body {
-    background-color: #181818 !important;
-    color: #fcfcfc !important;
-   }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff !important;
+}
 
-   .tocnumber {
-       color: #cacaca !important;
-   }
+.mw-body,
+.parsoid-body {
+	background-color: #181818 !important;
+	color: #fcfcfc !important;
+}
+
+.tocnumber {
+	color: #cacaca !important;
+}
 a:visited {
-    color: #4fbcff !important;
+	color: #4fbcff !important;
 }
 
 a {
-    color: #4fbcff !important;
-    text-decoration: none;
-    background: none;
+	color: #4fbcff !important;
+	text-decoration: none;
+	background: none;
 }
 
-
-
 #mw-head {
-    background-color: #141414 !important;
+	background-color: #141414 !important;
 }
 
 #searchInput {
-    background-color: rgba(255,255,255,0.9) !important;
-    color: #000000 !important;
+	background-color: rgba(255, 255, 255, 0.9) !important;
+	color: #000000 !important;
 }
 
-.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3, .vector-menu-tabs li, .vector-menu-tabs .selected a, .vector-menu-tabs .selected a:visited{
-    background-image: linear-gradient(rgba(40, 44, 46, 0) 0px, rgb(40, 44, 46) 100%) !important;
-    background-size: 1px 100% !important;
-    background-repeat: no-repeat !important;
+.vector-menu-tabs,
+.vector-menu-tabs a,
+#mw-head .vector-menu-dropdown h3,
+.vector-menu-tabs li,
+.vector-menu-tabs .selected a,
+.vector-menu-tabs .selected a:visited {
+	background-image: linear-gradient(
+		rgba(40, 44, 46, 0) 0px,
+		rgb(40, 44, 46) 100%
+	) !important;
+	background-size: 1px 100% !important;
+	background-repeat: no-repeat !important;
 }
 
 .vector-menu-tabs .selected {
-    background: #181818 !important;
+	background: #181818 !important;
 }
 
-.toc, .toccolours {
-    border: 0px solid #a2a9b1 !important;
-    background-color: #141414 !important;
+.toc,
+.toccolours {
+	border: 0px solid #a2a9b1 !important;
+	background-color: #141414 !important;
 }
 
-.wikitable > tr > th, .wikitable > * > tr > th {
-    background-color: #050505;
-    text-align: center;
+.wikitable {
+	background-color: #050505;
+	text-align: center;
+}
+
+tr {
+	background-color: #050505;
+	text-align: center;
+}
+
+th {
+	background-color: #050505;
+	text-align: center;
+}
+
+.wikitable > tr > th {
+	background-color: #050505;
+	text-align: center;
+}
+
+.wikitable > * > tr > th {
+	background-color: #050505;
+	text-align: center;
 }
 
 div.thumbinner {
-    border: 0px solid #c8ccd1 !important;
-    padding: 3px;
-    background-color: #141414 !important;
+	border: 0px solid #c8ccd1 !important;
+	padding: 3px;
+	background-color: #141414 !important;
 }
 
 table {
-    background: #141414 !important;
-    border: 0px solid #aaa !important;
-    color: #fcfcfc !important;
+	background: #141414 !important;
+	border: 0px solid #aaa !important;
+	color: #eeeeee !important;
 }
 
 table.vertical-navbox nowraplinks {
-    background: #141414 !important;
-    border: 0px solid #aaa !important;
+	background: #141414 !important;
+	border: 0px solid #aaa !important;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    
-    .mw-wiki-logo {
-        background-image: url(https://en.wikipedia.org/static/images/project-logos/enwiki-2x.png) !important;
-}
-
+@media (-webkit-min-device-pixel-ratio: 2),
+	not all,
+	(min-resolution: 2dppx),
+	(min-resolution: 192dpi) {
+	.mw-wiki-logo {
+		background-image: url(https://en.wikipedia.org/static/images/project-logos/enwiki-2x.png) !important;
+	}
 }
