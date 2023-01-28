@@ -11,6 +11,7 @@ h6 {
 	color: #fff !important;
 }
 
+.mw-page-container,
 .mw-body,
 .parsoid-body {
 	background-color: #181818 !important;
@@ -38,6 +39,11 @@ a {
 	background-color: rgba(255, 255, 255, 0.9) !important;
 	color: #000000 !important;
 }
+
+.vector-toc  {
+	background-color: #141414 !important;
+}
+
 
 .vector-menu-tabs,
 .vector-menu-tabs a,
@@ -78,12 +84,27 @@ th {
 	text-align: center;
 }
 
-.wikitable > tr > th {
+.headerSort {
+	background-color: #050505;
+	text-align: center;	
+}
+
+.wikitable {
 	background-color: #050505;
 	text-align: center;
 }
 
 .wikitable > * > tr > th {
+	background-color: #050505;
+	text-align: center;
+}
+
+.wikitable > tr > th, .wikitable > * > tr > th {
+	background-color: #050505 !important;
+	text-align: center;
+}
+
+.wikitable th {
 	background-color: #050505;
 	text-align: center;
 }
